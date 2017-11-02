@@ -3,3 +3,5 @@ This is a Chrome extension, which replaces text versions of the emojis into imag
 e.g. Special characters 😀, 😁, 😂, 😃, etc. are replaced with graphics of Apple Emojis.
 
 Image Credits: Apple and Emojipedia
+
+Download: https://chrome.google.com/webstore/detail/emojidisplay/doomojimaojclkcipjldpmdbiedgaoop
