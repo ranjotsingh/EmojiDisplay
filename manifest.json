@@ -1,25 +1,18 @@
 {
-"manifest_version": 2,
-    "name": "EmojiDisplay",
-    "description": "This extension replaces emoticon text with the Apple Emojis.",
-    "version": "0.1",
-    "browser_action": {
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
-    },
-	"web_accessible_resources": [
-	  "script.js"
-    ],
-    "content_scripts": [
-        {
-            "matches": [
-                "http://*/*",
-                "https://*/*"
-            ],
-            "js": [
-                "content.js"
-            ],
-            "run_at": "document_end"
-        }
-    ]
+  "manifest_version": 2,
+  "name": "EmojiDisplay",
+  "description": "This extension replaces emoticon text with the Apple Emojis.",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": ["pics/*.png", "res.json"],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
 }

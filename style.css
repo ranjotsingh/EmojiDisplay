@@ -1,21 +1,31 @@
-body{
-    min-width: 300px;
-    font-family: Raleway, sans-serif;
+body {
+  min-width: 300px;
+  font-family: Raleway, sans-serif;
 }
-img{
-    width:50px;
-    float: left;
-    padding-right:10px;
+
+img {
+  width: 15px;
+  float: left;
+  padding-right: 10px;
 }
-.company{
-    vertical-align: middle;
-    line-height: 50px;
-    font-size:34px;
-    color:rgb(119, 119, 119);
+
+p {
+  font-size: 13px;
 }
-p{
-    font-size: 13px;
+
+a {
+  text-decoration: none;
+  color: black;
 }
-a{
-    font-size: 16px;
+
+a:hover {
+  text-decoration: underline;
+}
+
+#title {
+  font-size: 14px;
+}
+
+#credit {
+  text-align: right;
 }
